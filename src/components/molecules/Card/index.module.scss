@@ -1,0 +1,29 @@
+@import "./../../../styles/variables.scss";
+
+.card {
+  background-color: $primary-text;
+  padding: 1.5rem;
+  border-radius: 5px;
+  color: $white;
+
+  img {
+    // filter: invert(1);
+    width: 3rem;
+    margin-bottom: 0.5rem;
+  }
+
+  h4 {
+    margin-bottom: 0.35rem;
+    font-size: 1.5rem;
+  }
+
+  p {
+    margin-bottom: 1.5rem;
+  }
+
+  a {
+    color: $white;
+    font-size: 0.9rem;
+    text-decoration: none;
+  }
+}

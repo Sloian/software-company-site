@@ -1,0 +1,43 @@
+{
+  "heading": "We Do Everything",
+  "subHeading": "OUR SERVICES",
+  "desc": "We don’t simply code, we deliver robust software solutions that respond to today’s requirements and trends of tomorrow. We offer expertise, share risks and opt for long-term relationships that last 2+ years on the average.",
+  "services": [
+    {
+      "heading": "App Development",
+      "desc": "We specialize in creating custom mobile applications tailored to your specific needs. From concept to deployment, we ensure a seamless user experience on every platform.",
+      "icon": "/img/app.png",
+      "linkText": "Explore"
+    },
+    {
+      "heading": "Web Development",
+      "desc": "Our web development services cover everything from static websites to complex web applications. We leverage the latest technologies to deliver high-performance, scalable solutions.",
+      "icon": "/img/web.png",
+      "linkText": "Explore"
+    },
+    {
+      "heading": "UI/UX Design",
+      "desc": "We craft intuitive and visually appealing user interfaces that enhance user engagement and satisfaction. Our UX design process focuses on creating seamless interactions.",
+      "icon": "/img/ui.png",
+      "linkText": "Explore"
+    },
+    {
+      "heading": "Digital Marketing",
+      "desc": "Our digital marketing strategies help businesses reach their target audience effectively. From SEO and social media to email campaigns, we drive measurable results.",
+      "icon": "/img/digital.png",
+      "linkText": "Explore"
+    },
+    {
+      "heading": "Data Analysis",
+      "desc": "We offer comprehensive data analysis services to extract valuable insights from your data. Our analytical approach empowers informed decision-making and business growth.",
+      "icon": "/img/data.png",
+      "linkText": "Explore"
+    },
+    {
+      "heading": "Cloud Computing",
+      "desc": "Our cloud computing solutions enable businesses to leverage the power of cloud technology for scalability, flexibility, and cost-efficiency. We ensure seamless migration and management.",
+      "icon": "/img/cloud.png",
+      "linkText": "Explore"
+    }
+  ]
+}

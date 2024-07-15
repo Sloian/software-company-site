@@ -1,0 +1,24 @@
+@import "./../../../styles/variables.scss";
+
+.loader {
+  background-color: $primary-text;
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+
+  h1 {
+    margin-left: 5rem;
+    color: $white;
+    font-size: 10rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .loader {
+    h1 {
+      font-size: 5rem;
+      margin-left: 2rem;
+      margin-bottom: 5rem;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "contactContent": {
+    "heading": "Let's Talk!",
+    "subHeading": "CONTACT US",
+    "desc": "We will reach out to you within 24 hours",
+    "info": "Don't like filling up forms? Email us directly at-",
+    "link": {
+      "href": "mailto:diceuswebcorporation@gmail.com",
+      "icon": "/img/email.png",
+      "text": "diceuswebcorporation@gmail.com"
+    }
+  },
+  "form": {
+    "inputField": [
+      {
+        "name": "name",
+        "placeholder": "Name",
+        "icon": "/img/user.png",
+        "type": "text"
+      },
+      {
+        "name": "email",
+        "placeholder": "Email Address",
+        "icon": "/img/email.png",
+        "type": "email"
+      },
+      {
+        "name": "cname",
+        "placeholder": "Company Name",
+        "icon": "/img/company.png",
+        "type": "text"
+      },
+      {
+        "name": "message",
+        "placeholder": "How we can help you? Feel free to contact us!",
+        "icon": "/img/pencil.png",
+        "type": "textarea"
+      }
+    ],
+    "btnText": "Get In Touch",
+    "loadingText": "Sending...",
+    "btnIcon": "/svg/send.svg"
+  }
+}

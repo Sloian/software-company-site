@@ -1,0 +1,65 @@
+@import "./../../../styles/variables.scss";
+
+section {
+  min-height: 100vh;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 3rem;
+  background-color: $primary-text;
+  color: $white;
+  padding: 2rem 5rem;
+
+  .heroContent {
+    width: 100%;
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      width: 90%;
+      margin-bottom: 1rem;
+    }
+
+    button {
+      background-color: $white;
+      color: $primary-text;
+    }
+  }
+
+  img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 750px) {
+  .home {
+    padding: 5rem 2rem 3rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .heroContent {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      h1 {
+        font-size: 2.5rem;
+      }
+      p {
+        width: 100%;
+        font-size: 1rem;
+      }
+    }
+
+    img {
+      width: 70%;
+    }
+  }
+}

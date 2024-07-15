@@ -1,0 +1,37 @@
+@import "./../../../styles/variables.scss";
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $primary-text;
+  color: $white;
+  padding: 1.5rem 4rem;
+  position: absolute;
+  width: calc(100% - 8rem);
+  z-index: 10;
+
+  ul {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    font-weight: 600;
+
+    li {
+      cursor: pointer;
+
+      &:hover {
+        filter: brightness(90%);
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .navbar {
+    padding: 1.5rem 2rem;
+    ul {
+      display: none;
+    }
+  }
+}
